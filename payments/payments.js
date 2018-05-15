@@ -51,7 +51,7 @@ form.addEventListener('submit', function(event) {
       errorElement.textContent = result.error.message;
     } else {
       // Send the token to your server.
-      alert(JSON.stringify(result));
+      console.log(JSON.stringify(result));
     }
   });
 });
