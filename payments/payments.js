@@ -81,7 +81,8 @@ paymentRequest.canMakePayment().then(function(result) {
 
 paymentRequest.on('token', function(ev) {
   // Send the token to your server to charge it!
-  console.log(JSON.stringify(ev.token))
+  console.log(JSON.stringify(ev.token));
+  ev.complete('success');
   
 });
 
