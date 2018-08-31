@@ -141,17 +141,17 @@ var paymentForm = new SqPaymentForm({
         lineItems: [
           {
             label: "Subtotal",
-            amount: "SUBTOTAL AMOUNT",
+            amount: "10",
             pending: false
           },
           {
             label: "Shipping",
-            amount: "SHIPPING AMOUNT",
+            amount: "5",
             pending: true
           },
           {
             label: "Tax",
-            amount: "TAX AMOUNT",
+            amount: "2",
             pending: false
           }
         ]
