@@ -68,9 +68,9 @@ var paymentForm = new SqPaymentForm({
     elementId: 'sq-expiration-date',
     placeholder: 'MM/YY'
   },
-  postalCode: {
-    elementId: 'sq-postal-code'
-  },
+  // postalCode: {
+  //   elementId: 'sq-postal-code'
+  // },
 
   // SqPaymentForm callback functions
   callbacks: {
